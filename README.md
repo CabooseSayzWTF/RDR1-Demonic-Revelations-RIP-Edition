@@ -1,17 +1,5 @@
-RDR1 Demonic Revelations Mod Menu Source Code
+RDR1 Demonic Revelations Mod Menu Source Code.
+
 It's trash. Do whatever you wish with it just be sure to give credits to the below.
 
-CabooseSayzWTF
-xTheDevilRazedMe
-Cain532
-Im Foxxyyy
-Sockstress (Райан)
-JamesTwt
-Mizdx
-Yzid
-Connor aka FuhzBot
-RouletteBoi
-FrostDragon
-Golden Bullets
-Vision
-Arphenion
+CabooseSayzWTF, xTheDevilRazedMe, Cain532, Im Foxxyyy, Sockstress (Райан), JamesTwt, Mizdx, Yzid, Connor (FuhzBot), RouletteBoi, FrostDragon, Golden Bullets, Vision, Arphenion
