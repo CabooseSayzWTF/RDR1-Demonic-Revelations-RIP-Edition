@@ -63,6 +63,8 @@
 #define ATAN ATAN_DEGREE
 #define ATAN2 ATAN2_DEGREE
 
+//This native list is out of date majorly. When coding in demonic I never bothered to fully update the list to reflect all the newer documentation.
+//Feel free to migrate to a newer native list and fix source to support proper named natives for any that are UNK_ natives.
 extern _native void UNK_0x594F2657(int pram0)l
 extern _native void UNK_0xD1D1D467(int pram0)l
 extern _native int FLOOR(float x)l
@@ -3159,8 +3161,7 @@ extern _native void AI_SET_NAV_ALLOW_TWEAK_DESIRED_MOVEMENT(Actor actor, int pra
 extern _native void SET_ACTOR_STAMINA(int pram0, int pram1)l
 extern _native void MEMORY_ALLOW_PICKUP_WEAPONS(int pram0, int pram1)l
 extern _native void SET_PLAYER_ALLOW_PICKUP(int pram0)l
-extern _native32(0x9A5841E5) void _FAIL_CHECKS_MODDERS_POOL()l
-extern _native void NET_SCRIPT_CRASH(int pram0)l
+extern _native32(0x9A5841E5) void _FAIL_CHECKS_MODDERS_POOL()l//this forces you to fail checks and go instantly into modders pool.
 extern _native bool REMOVE_HORSE_ACCESSORY(int pram0, int pram1)l
 extern _native bool HAS_ACCESSORY(int pram0, int pram1)l
 extern _native bool ADD_ACCESSORY(const char* bindType, Actor actor, bool unk)l
