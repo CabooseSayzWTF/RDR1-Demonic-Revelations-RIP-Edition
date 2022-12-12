@@ -84,23 +84,23 @@ void SelfOptionP1()
 {
 	add_title("Self Options - Page 1");
 	DrawBoolOption("God Mode", God);
-	DrawBoolOption("Inf Roll", infroll);
 	DrawBoolOption("Inf Horse Stamina", HrsStam);
 	add_option("Noclip");
 	DrawBoolOption("Invis", invisible);
 	DrawBoolOption("EXP Jump", SuperJump);
 	DrawBoolOption("NoRagDollv1", AntiRagDoll);
 	DrawBoolOption("NoRagDollv2", AntiRagDoll2);
+	//DrawBoolOption("Inf Roll", infroll);//Need for ps3, in ida just search for rollcooldown or something like that and the float is somewhere near it.
 	switch (getOption())
 	{
 	case 1: Option1: CLEAR_ACTOR_PROOF_ALL(self); DeMiGod = 0; God = !God; if (!God) { CLEAR_ACTOR_PROOF(self, -1); SET_ACTOR_INVULNERABILITY(self, 0); }; break;
-	case 2: Option2: infroll = !infroll; if (infroll)*(short*)0x82FF0C6C = 0; if (!infroll)*(short*)0x82FF0C6C = 16416; break;
-	case 3: Option3: HrsStam = !HrsStam; if (!HrsStam) { _CHEAT_INFINITE_HORSE_STAMINA(0); HORSE_UNLOCK_FRESHNESS(GET_DRAFT_ACTOR(0, GET_ACTOR_MOST_RECENT_VEHICLE(self))); HORSE_UNLOCK_FRESHNESS(GET_DRAFT_ACTOR(1, GET_ACTOR_MOST_RECENT_VEHICLE(self))); HORSE_UNLOCK_FRESHNESS(GET_DRAFT_ACTOR(2, GET_ACTOR_MOST_RECENT_VEHICLE(self))); HORSE_UNLOCK_FRESHNESS(GET_DRAFT_ACTOR(3, GET_ACTOR_MOST_RECENT_VEHICLE(self))); }; break;
-	case 4: Option4: if (NoclipON) print2("Noclip Is Already Active", 2000); if (!NoclipON) { SET_MOVER_FROZEN(self, 1); NOCLIPMESS(); }; break;
-	case 5: Option5: invisible = !invisible; if (invisible) { print2("<green> You Are Now Invisible To Everybody in The Game!</green>", 3000); }if (!invisible) { print2("<red>You Are Now Visible To Everybody In The Game</red>", 3000); _NET_VISIBILITY(self, 3); }; break;
-	case 6: Option6: SuperJump = !SuperJump; if (SuperJump) { print2("<green>God Mode Must Be On</green> \n Hold <x> To Jump", 3000); }; break;
-	case 7: Option7: AntiRagDoll2 = 0; TASK_CROUCH(self, 0); AntiRagDoll = !AntiRagDoll; break;
-	case 8: Option8: AntiRagDoll = 0; AntiRagDoll2 = !AntiRagDoll2; break;
+	case 2: Option2: HrsStam = !HrsStam; if (!HrsStam) { _CHEAT_INFINITE_HORSE_STAMINA(0); HORSE_UNLOCK_FRESHNESS(GET_DRAFT_ACTOR(0, GET_ACTOR_MOST_RECENT_VEHICLE(self))); HORSE_UNLOCK_FRESHNESS(GET_DRAFT_ACTOR(1, GET_ACTOR_MOST_RECENT_VEHICLE(self))); HORSE_UNLOCK_FRESHNESS(GET_DRAFT_ACTOR(2, GET_ACTOR_MOST_RECENT_VEHICLE(self))); HORSE_UNLOCK_FRESHNESS(GET_DRAFT_ACTOR(3, GET_ACTOR_MOST_RECENT_VEHICLE(self))); }; break;
+	case 3: Option3: if (NoclipON) print2("Noclip Is Already Active", 2000); if (!NoclipON) { SET_MOVER_FROZEN(self, 1); NOCLIPMESS(); }; break;
+	case 4: Option4: invisible = !invisible; if (invisible) { print2("<green> You Are Now Invisible To Everybody in The Game!</green>", 3000); }if (!invisible) { print2("<red>You Are Now Visible To Everybody In The Game</red>", 3000); _NET_VISIBILITY(self, 3); }; break;
+	case 5: Option5: SuperJump = !SuperJump; if (SuperJump) { print2("<green>God Mode Must Be On</green> \n Hold <x> To Jump", 3000); }; break;
+	case 6: Option6: AntiRagDoll2 = 0; TASK_CROUCH(self, 0); AntiRagDoll = !AntiRagDoll; break;
+	case 7: Option7: AntiRagDoll = 0; AntiRagDoll2 = !AntiRagDoll2; break;
+	//case 8: Option2: infroll = !infroll; if (infroll)*(short*)NEED OFFSET = 0; if (!infroll)*(short*)NEED OFFSET = NORMAL OFFSET VALUE; break;
 	}
 }
 void SelfOptionP2()
