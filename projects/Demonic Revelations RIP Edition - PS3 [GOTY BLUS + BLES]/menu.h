@@ -100,7 +100,7 @@ void SelfOptionP1()
 	case 5: Option5: SuperJump = !SuperJump; if (SuperJump) { print2("<green>God Mode Must Be On</green> \n Hold <x> To Jump", 3000); }; break;
 	case 6: Option6: AntiRagDoll2 = 0; TASK_CROUCH(self, 0); AntiRagDoll = !AntiRagDoll; break;
 	case 7: Option7: AntiRagDoll = 0; AntiRagDoll2 = !AntiRagDoll2; break;
-	//case 8: Option2: infroll = !infroll; if (infroll)*(short*)NEED OFFSET = 0; if (!infroll)*(short*)NEED OFFSET = NORMAL OFFSET VALUE; break;
+	//case 8: Option8: infroll = !infroll; if (infroll)*(short*)NEED OFFSET = 0; if (!infroll)*(short*)NEED OFFSET = NORMAL OFFSET VALUE; break;
 	}
 }
 void SelfOptionP2()
