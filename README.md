@@ -16,19 +16,20 @@ Do whatever you wish with the source just be sure to give credits to the below. 
 
 Just copy and paste the below in your release, and add your own credit for noteworthy edits/changes
 
-Menu Source Link: https://github.com/CabooseSayzWTF/Demonic-Revelations-RIP-Edition
+Menu Source Link: https://github.com/CabooseSayzWTF/Demonic-Revelations-RIP-Edition  
+
 Credits
-1.CabooseSayzWTF
-2.xTheDevilRazedMe
-3.Cain532
-4.Im Foxxyyy
-5.Sockstress (Райан)
-6.JamesTwt
-7.Mizdx
-8.Yzid
-9.Connor (FuhzBot)
-10.RouletteBoi
-11.FrostDragon
-12.Golden Bullets
-13.Vision
-14.Arphenion
+* CabooseSayzWTF
+* xTheDevilRazedMe
+* Cain532
+* Im Foxxyyy
+* Sockstress (Райан)
+* JamesTwt
+* Mizdx
+* Yzid
+* Connor (FuhzBot)
+* RouletteBoi
+* FrostDragon
+* Golden Bullets
+* Vision
+* Arphenion
