@@ -14,4 +14,22 @@ You need to also link to the original menu source code aka this github link, to 
 
 Do whatever you wish with the source just be sure to give credits to the below. [This includes keeping menu credits, and adding these credits to the thread/description of wherever you release the edit to]
 
-CabooseSayzWTF, xTheDevilRazedMe, Cain532, Im Foxxyyy, Sockstress (Райан), JamesTwt, Mizdx, Yzid, Connor (FuhzBot), RouletteBoi, FrostDragon, Golden Bullets, Vision, Arphenion
+Just copy and paste the below in your release, and add your own credit for noteworthy edits/changes
+
+Menu Source Link: https://github.com/CabooseSayzWTF/Demonic-Revelations-RIP-Edition
+Credits
+---------
+CabooseSayzWTF
+xTheDevilRazedMe
+Cain532
+Im Foxxyyy
+Sockstress (Райан)
+JamesTwt
+Mizdx
+Yzid
+Connor (FuhzBot)
+RouletteBoi
+FrostDragon
+Golden Bullets
+Vision
+Arphenion
