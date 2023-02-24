@@ -3161,7 +3161,6 @@ extern _native void SET_ACTOR_STAMINA(int pram0, int pram1)l
 extern _native void MEMORY_ALLOW_PICKUP_WEAPONS(int pram0, int pram1)l
 extern _native void SET_PLAYER_ALLOW_PICKUP(int pram0)l
 extern _native32(0x9A5841E5) void _FAIL_CHECKS_MODDERS_POOL()l
-extern _native void NET_SCRIPT_CRASH(int pram0)l
 extern _native bool REMOVE_HORSE_ACCESSORY(int pram0, int pram1)l
 extern _native bool HAS_ACCESSORY(int pram0, int pram1)l
 extern _native bool ADD_ACCESSORY(const char* bindType, Actor actor, bool unk)l
