@@ -5,6 +5,8 @@ PS: Don't take the menu and just up and rename it and act like you cracked the m
 
 
 2/23/2023
+Updated ps3 source a bit and added releases with loose files required for demonic to work as it should as well as pre-modded files for those who are lazy.  
+ALSO  
 Since some people seem confused. I'll make it more clear now.
 IF you use the source and edit it and release a edited version, show the menu or the edited version on youtube, any site, any video hoster site, any file hoster site etc
 
