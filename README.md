@@ -31,6 +31,8 @@ Credits
 * Yzid
 * Connor (FuhzBot)
 * RouletteBoi
+* jedijosh920
+* SC-CL Team
 * FrostDragon
 * Golden Bullets
 * Vision
