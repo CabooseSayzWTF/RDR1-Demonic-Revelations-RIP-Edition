@@ -36,7 +36,7 @@ Credits
 * Vision
 * Arphenion
 * Glitched Matrix
-* Fedral/Glitched Bite
+* Federal/Glitched Bite
 * Cactus Clan
 * Mclintock
 * Zero Freeze
