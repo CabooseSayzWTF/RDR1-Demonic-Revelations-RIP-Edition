@@ -35,3 +35,11 @@ Credits
 * Golden Bullets
 * Vision
 * Arphenion
+* Glitched Matrix
+* Fedral/Glitched Bite
+* Cactus Clan
+* Mclintock
+* Zero Freeze
+* ABRAoriginal
+* Stack
+* Everybody who pitched ideas and beta test etc
