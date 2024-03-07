@@ -2,6 +2,8 @@ This script source is no longer in support, so as such do not ask anything relat
 It is being left up for archival purposes and nothing more.
 
 Give credits where due if you edit this menu or showcase it etc.
+Do not use the name Demonic Revelations as clickbait in your video title or in the video itself. Some people are trying to scam people with different menus using the demonic revelations name.
+
 Credits
 * CabooseSayzWTF
 * xTheDevilRazedMe
